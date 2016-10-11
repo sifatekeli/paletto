@@ -16,6 +16,13 @@ PalettoTestCase.prototype.testStory1 = function () {
 };
 
 PalettoTestCase.prototype.testStory2 = function () {
-    e.takePiece(5,0);
-    assertTrue(board[5][0] == null && p1.yellow == 1);
+     e.takePiece("A6");
+     assertTrue(board[5][0] == null && p1.yellow == 1);
 };
+
+PalettoTestCase.prototype.testStory3 = function () {
+    assertTrue(e.nbPiece() == 35 && p1.yellow == 1 && board[5][0] == null);
+
+};
+
+
