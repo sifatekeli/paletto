@@ -33,10 +33,22 @@ var Engine = function () {
         board[5] = ["yellow", "blue", "black", "red", "green", "black"];
     };
 
-    this.takePiece = function (line, column) {
+    this.takePiece = function (location) {
+        var column = location.charCodeAt(0) - "A".charCodeAt(0);
+        var line = (location.charCodeAt(1) - "0".charCodeAt(0))-1;
         var color = board[line][column];
         p1[color]++;
         board[line][column] = null;
+    };
+
+    this.nbPiece = function (location) {
+        var counter = 0;
+        for(var line = 0; line < board.length; line++){
+            for(var column = 0; column < board[line].length; column++){
+                if (board[line][column] != null) counter++;
+            }
+        }
+        return counter;
     };
 
 };
