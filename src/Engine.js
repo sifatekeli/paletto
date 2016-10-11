@@ -18,7 +18,7 @@ var Engine = function () {
     this.getColorCounter = function () {
         return color_counter;
     };
-    
+
     this.init = function () {
         board[0] = ["black", "green", "white", "blue", "red", "white"];
         board[1] = ["yellow", "white", "green", "red", "yellow", "blue"];
