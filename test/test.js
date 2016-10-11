@@ -5,6 +5,7 @@ var e = new Engine();
 var board = e.getBoard();
 var colors = e.getColors();
 var color_counter = e.getColorCounter();
+var p1 = e.getP1();
 
 PalettoTestCase.prototype.testStory1 = function () {
     e.init();
@@ -15,7 +16,6 @@ PalettoTestCase.prototype.testStory1 = function () {
 };
 
 PalettoTestCase.prototype.testStory2 = function () {
-    p1.takePiece(0,5);
-
-    assertTrue(board[0][5] == "yellow" && p1.yellow == 1);
+    e.takePiece(5,0);
+    assertTrue(board[5][0] == null && p1.yellow == 1);
 };
