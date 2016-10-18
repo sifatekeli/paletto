@@ -5,19 +5,16 @@ var e = new Engine();
 var board = e.getBoard();
 var colors = e.getColors();
 var color_counter = e.getColorCounter();
-var p1 = e.getP1();
+var p1 = e.getPlayer(0);
+var p2 = e.getPlayer(1);
 
 PalettoTestCase.prototype.testStory1 = function () {
     e.init();
-
     assertTrue(true);
 };
 
 PalettoTestCase.prototype.testStory2 = function () {
      e.takePiece("A6");
-    for(var line = 0; line < board.length; line++){
-        console.log(board[line]);
-    }
      assertTrue(board[5][0] == null && p1.yellow == 1);
 };
 
@@ -28,7 +25,11 @@ PalettoTestCase.prototype.testStory3 = function () {
 PalettoTestCase.prototype.testStory4 = function () {
     var current_player = e.currentPlayer();
     e.takePiece("A1");
-    assertTrue(current_player == 2 && e.nbPiece() == 33 && p1.yellow == 1 && board[5][0] == null);
+    assertTrue(current_player == 1);
+    assertTrue(e.nbPiece() == 33);
+    assertTrue(p2.black == 2);
+    assertTrue(board[0][0] == null);
+    assertTrue(board[5][5] == null);
 };
 
 

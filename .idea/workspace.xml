@@ -26,8 +26,8 @@
       <file leaf-file-name="Engine.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Engine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="697">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="244">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -256,44 +256,44 @@
       <workItem from="1476174403351" duration="1389000" />
       <workItem from="1476176500332" duration="4503000" />
       <workItem from="1476184408371" duration="11199000" />
-      <workItem from="1476773241588" duration="1204000" />
+      <workItem from="1476773241588" duration="6692000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="jsTestDriver_conf - 2016.10.11 at 15h 50m 19s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 39m 02s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.11 at 15h 50m 40s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 39m 42s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.11 at 15h 59m 31s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 39m 55s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.11 at 16h 00m 10s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 41m 07s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.11 at 16h 00m 23s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 42m 10s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.11 at 16h 02m 10s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 43m 35s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.11 at 16h 09m 58s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 45m 01s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.11 at 16h 10m 11s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 45m 45s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 09h 08m 08s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 46m 13s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 09h 09m 41s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 47m 00s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18295000" />
+    <option name="totallyTimeSpent" value="23783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -304,7 +304,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3363029" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37527838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -330,7 +330,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/test.js</url>
+          <line>4</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -368,16 +377,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Engine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="697">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="244">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
           <folding />
         </state>
       </provider>
