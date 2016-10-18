@@ -32,5 +32,38 @@ PalettoTestCase.prototype.testStory4 = function () {
     assertTrue(board[5][5] == null);
 };
 
+PalettoTestCase.prototype.testStory5 = function () {
+    var current_player = e.currentPlayer();
+    board[0][0] = null;
+    board[0][1] = null;
+    board[0][2] = null;
+    board[1][0] = null;
+    board[1][1] = null;
+    board[1][2] = null;
+    board[1][5] = null;
+    board[2][0] = null;
+    board[2][1] = null;
+    board[2][5] = null;
+    board[3][3] = null;
+    board[3][4] = null;
+    board[3][5] = null;
+    board[4][0] = null;
+    board[4][3] = null;
+    board[4][4] = null;
+    board[4][5] = null;
+    board[5][0] = null;
+    board[5][1] = null;
+    board[5][3] = null;
+    board[5][4] = null;
+    board[5][5] = null;
+
+    e.takePiece("D1");
+
+    assertTrue(board[0][3] == null);
+    assertTrue(board[2][2] == "blue");
+};
+
+
+
 
 

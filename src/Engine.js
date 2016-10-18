@@ -40,14 +40,14 @@ var Engine = function () {
         var column = location.charCodeAt(0) - "A".charCodeAt(0);
         var line = (location.charCodeAt(1) - "0".charCodeAt(0))-1;
         var color = board[line][column];
+
         takePieceOf(color);
-        //players[current_player][color]++;
-        //board[line][column] = null;
         nextTour();
     };
 
     function takePieceOf(color){
         var tab_color = getColorPos(color);
+
         for(var pos = 0; pos < tab_color.length; pos++){
             if(nbNeighbour(tab_color[pos][0], tab_color[pos][1]) <= 2){
                 board[tab_color[pos][0]][tab_color[pos][1]] = null;
@@ -97,7 +97,7 @@ var Engine = function () {
     }
 
     function nextTour(){
-        if(current_player != players.length) current_player = (current_player % players.length) +1;
+        if(current_player != players.length-1) current_player++;
         else current_player = 0;
     }
 

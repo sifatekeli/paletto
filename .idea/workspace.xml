@@ -26,8 +26,8 @@
       <file leaf-file-name="Engine.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Engine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state relative-caret-position="-73">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -63,10 +63,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -256,55 +255,55 @@
       <workItem from="1476174403351" duration="1389000" />
       <workItem from="1476176500332" duration="4503000" />
       <workItem from="1476184408371" duration="11199000" />
-      <workItem from="1476773241588" duration="6692000" />
+      <workItem from="1476773241588" duration="9703000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 39m 02s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 21m 14s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 39m 42s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 27m 46s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 39m 55s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 29m 18s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 41m 07s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 30m 45s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 42m 10s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 35m 20s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 43m 35s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 36m 50s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 45m 01s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 37m 10s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 45m 45s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 38m 27s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 46m 13s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 38m 35s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
-    <history-entry file="jsTestDriver_conf - 2016.10.18 at 10h 47m 00s.xml">
+    <history-entry file="jsTestDriver_conf - 2016.10.18 at 11h 38m 42s.xml">
       <configuration name="jsTestDriver.conf" configurationId="JsTestDriver-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23783000" />
+    <option name="totallyTimeSpent" value="26794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07534247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15277778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37527838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40044993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -377,16 +376,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Engine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="-73">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>
