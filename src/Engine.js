@@ -49,35 +49,73 @@ var Engine = function () {
         var tab_color = getColorPos(color);
 
         for(var pos = 0; pos < tab_color.length; pos++){
-            if(nbNeighbour(tab_color[pos][0], tab_color[pos][1]) <= 2){
-                board[tab_color[pos][0]][tab_color[pos][1]] = null;
-                players[current_player][color]++;
+
+            var nb_neigbour = getNeighbours(tab_color[pos][0], tab_color[pos][1]).length;
+            if(nb_neigbour <= 2){
+                //on prend
+                if((nb_neigbour == 2 && isALink(tab_color[pos][0], tab_color[pos][1])) || nb_neigbour==1) {
+                    board[tab_color[pos][0]][tab_color[pos][1]] = null;
+                    players[current_player][color]++;
+                }
             }
         }
     }
 
-    function nbNeighbour(line, column){
+    function isALink(line, column){
+        if((line==getNeighbours(line,column)[0][1] && column>=getNeighbours(line,column)[1][0]) || (line==getNeighbours(line,column)[1][0] && column>=getNeighbours(line,column)[0][1])){
+            if((board[getNeighbours(line,column)[0][0]][getNeighbours(line,column)[1][1]])==null){
+                return false;
+            }else{
+                return true;
+            }
+        }else{
+            if((board[getNeighbours(line,column)[1][0]][getNeighbours(line,column)[0][1]])==null){
+                return false;
+            }else{
+                return true;
+            }
+        }
+    }
+
+
+    function getNeighbours(line, column){
         var counter = 0;
+        var tab_neighbour = new Array();
         if(line == 0){
             if(column == 0){
-                counter+= isEmpty(line +1, column) + isEmpty(line, column +1);
+                addIfExist(line +1, column, tab_neighbour);
+                addIfExist(line, column +1, tab_neighbour);
             }else{
-                counter+= isEmpty(line +1, column) + isEmpty(line, column +1) + isEmpty(line, column -1);
+                addIfExist(line +1, column, tab_neighbour);
+                addIfExist(line, column +1, tab_neighbour);
+                addIfExist(line, column -1, tab_neighbour);
             }
         }else if(column == 0){
             if(line == 5){
-                counter += isEmpty(line, column +1) + isEmpty(line -1, column);
+                addIfExist(line, column +1, tab_neighbour);
+                addIfExist(line -1, column, tab_neighbour);
             }else {
-                counter += isEmpty(line +1, column) + isEmpty(line, column +1) + isEmpty(line -1, column);
+                addIfExist(line +1, column, tab_neighbour);
+                addIfExist(line, column +1, tab_neighbour);
+                addIfExist(line -1, column, tab_neighbour);
             }
         }else{
             if(line == 5){
-                counter += isEmpty(line - 1, column) + isEmpty(line, column + 1) + isEmpty(line, column - 1);
+                addIfExist(line - 1, column, tab_neighbour);
+                addIfExist(line, column + 1, tab_neighbour);
+                addIfExist(line, column - 1, tab_neighbour);
             }else {
-                counter += isEmpty(line + 1, column) + isEmpty(line - 1, column) + isEmpty(line, column + 1) + isEmpty(line, column - 1);
+                addIfExist(line + 1, column, tab_neighbour);
+                addIfExist(line - 1, column, tab_neighbour);
+                addIfExist(line, column + 1, tab_neighbour);
+                addIfExist(line, column - 1, tab_neighbour);
             }
         }
-        return counter;
+        return tab_neighbour;
+    }
+
+    function addIfExist(line, column, tab_neighbour) {
+        if(isEmpty(line, column) == 1) tab_neighbour.push(new Array(line, column));
     }
 
     function isEmpty(line, column){
@@ -116,4 +154,3 @@ var Engine = function () {
     };
 
 };
-

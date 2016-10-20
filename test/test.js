@@ -61,6 +61,7 @@ PalettoTestCase.prototype.testStory5 = function () {
 
     assertTrue(board[0][3] == null);
     assertTrue(board[2][2] == "blue");
+
 };
 
 
