@@ -158,7 +158,7 @@ var Engine = function () {
     function isWinner(color) {
         if(players[current_player][color] == 6){
             winner = current_player;
-            console.log("Player "+winner+" is the WINNER !");
+            console.log("Player "+winner+" is the winner because he have the 6 "+color+" balls !");
             return true;
         }
         return false;
