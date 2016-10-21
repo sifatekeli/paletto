@@ -54,8 +54,10 @@ var Engine = function () {
 
             var nb_neigbour = getNeighbours(tab_color[pos][0], tab_color[pos][1]).length;
             if(nb_neigbour <= 2){
-                //on prend
                 if((nb_neigbour == 2 && isALink(tab_color[pos][0], tab_color[pos][1])) || nb_neigbour==1) {
+                    board[tab_color[pos][0]][tab_color[pos][1]] = null;
+                    players[current_player][color]++;
+                }else if(nb_neigbour == 0){
                     board[tab_color[pos][0]][tab_color[pos][1]] = null;
                     players[current_player][color]++;
                 }
@@ -145,7 +147,7 @@ var Engine = function () {
         return current_player;
     };
 
-    this.nbPiece = function (location) {
+    function nbPiece(){
         var counter = 0;
         for(var line = 0; line < board.length; line++){
             for(var column = 0; column < board[line].length; column++){
@@ -153,20 +155,28 @@ var Engine = function () {
             }
         }
         return counter;
+    }
+
+    this.nbPiece = function () {
+        return nbPiece();
     };
 
     function isWinner(color) {
-        if(players[current_player][color] == 6){
+        if(players[current_player][color] == 6 && nbPiece() != 0){
             winner = current_player;
             console.log("Player "+winner+" is the winner because he have the 6 "+color+" balls !");
             return true;
+        }else if(nbPiece() == 0){
+            winner = current_player;
+            console.log("Player "+winner+" is the winner because he get the last ball !");
         }
         return false;
     }
 
     this.getWinner = function () {
         return winner;
-    }
+    };
 
 
 };
+

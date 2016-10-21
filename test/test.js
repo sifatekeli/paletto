@@ -72,7 +72,6 @@ PalettoTestCase.prototype.testStory6 = function () {
     var e2 = new Engine();
     var board2 = e2.getBoard();
     e2.init();
-
     console.log("Scenario 6");
 
     e2.takePiece("A1");
@@ -92,7 +91,6 @@ PalettoTestCase.prototype.testStory7 = function () {
     var e3 = new Engine();
     var board3 = e3.getBoard();
     e3.init();
-
     console.log("Scenario 7");
 
     e3.takePiece("A1");
@@ -107,7 +105,7 @@ PalettoTestCase.prototype.testStory7 = function () {
     e3.takePiece("C6");
     e3.takePiece("B5");
     e3.takePiece("D2");
-    e3.takePiece("B2");
+    e3.takePiece("D3");
     e3.takePiece("E4");
     e3.takePiece("C5");
     e3.takePiece("D4");
@@ -115,7 +113,7 @@ PalettoTestCase.prototype.testStory7 = function () {
     e3.takePiece("B4");
     e3.takePiece("C4");
 
-    assertTrue(e3.getWinner() == 1);
+    assertTrue(e3.getWinner() == 0);
 };
 
 
