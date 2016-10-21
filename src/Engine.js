@@ -6,6 +6,7 @@ var Engine = function () {
     var colors = new Array("black", "blue", "green", "red", "white", "yellow");
     var color_counter = new Array(6).fill(0);
     var current_player = 0;
+    var winner = null;
 
     var p = {black: 0, blue: 0, green: 0, red: 0, white: 0, yellow: 0};
     var players = new Array(2).fill(p);
@@ -42,6 +43,7 @@ var Engine = function () {
         var color = board[line][column];
 
         takePieceOf(color);
+        isWinner(color);
         nextTour();
     };
 
@@ -152,5 +154,19 @@ var Engine = function () {
         }
         return counter;
     };
+
+    function isWinner(color) {
+        if(players[current_player][color] == 6){
+            winner = current_player;
+            console.log("Player "+winner+" is the WINNER !");
+            return true;
+        }
+        return false;
+    }
+
+    this.getWinner = function () {
+        return winner;
+    }
+
 
 };

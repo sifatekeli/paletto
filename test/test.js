@@ -84,9 +84,7 @@ PalettoTestCase.prototype.testStory6 = function () {
     e2.takePiece("B4");
 
     var p1 = e2.getPlayer(0);
-
-    assertTrue(e.winByColor("black"));
-
+    assertTrue(e2.getWinner() == 0);
 };
 
 
